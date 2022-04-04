@@ -1,0 +1,37 @@
+html {
+    --gray: #707070;
+    scroll-behavior: smooth;
+}
+
+header {
+    font-family: 'Source Sans', sans-serif;
+    color:#707070;
+    font-size: 20px;
+}
+
+.programbook {
+    font-family: 'Source Sans', sans-serif;
+    color:#707070;
+    font-size: 15px;
+    padding-bottom: 15px;
+}
+
+body {
+    font-family: 'Source Sans', sans-serif;
+    color:#707070;
+    font-size: 14.5px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: [full-start] minmax(1rem, 25px) [main-start] minmax(0, 1280px) [main-end] minmax(1rem, 25px) [full-end];
+}
+
+.grid > * {
+    grid-column: main;
+}
+
+.myname {
+    padding-top: 31px;
+    padding-bottom: 23px;
+}
