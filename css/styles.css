@@ -71,6 +71,14 @@ a:visited {
     font-size: 12px;
 }
 
+.copyright {
+    font-family: 'Source Sans', sans-serif;
+    color: #707070;
+    font-size: 14.5px;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
 .rinddescription {
     font-family: 'Source Sans', sans-serif;
     color:#707070;
