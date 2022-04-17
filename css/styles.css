@@ -7,19 +7,6 @@ header {
     font-family: 'Source Sans', sans-serif;
     color:#707070;
     font-size: 20px;
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
-a:active {
-    color: red;
-}
-
-a:visited {
-    color: purple;
 }
 
 .programbook {
@@ -47,6 +34,17 @@ body {
 .myname {
     padding-top: 31px;
     padding-bottom: 23px;
+    text-decoration: none;
+    color: #707070;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #707070;
 }
 
 .row {
