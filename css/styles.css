@@ -40,15 +40,29 @@ body {
     display: flex;
     flex-wrap: wrap;
     padding-top: 20px;
-    padding-left: 25px;
+    padding-left: 17px;
     padding-right: 25px;
 }
 
 .column {
     flex: 50%;
+    padding-left: 8px;
 }
 
 .column img {
     margin-top: 8px;
     vertical-align: middle;
+}
+
+.class {
+    font-family: 'Source Sans', sans-serif;
+    color: #707070;
+    font-size: 12px;
+}
+
+.rinddescription {
+    font-family: 'Source Sans', sans-serif;
+    color:#707070;
+    font-size: 14.5px;
+    padding-top: 1rem;
 }
